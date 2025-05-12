@@ -18,7 +18,9 @@ past_waste_kg: Food waste in kilograms
 staff_experience: Experience level of staff members
 waste_category: Type of waste, like dairy or meat
 date, day_of_week, ID: Extra info about time and IDs
-🧹 Data Cleaning
+
+
+Data Cleaning
 Changed date into a date format
 Made sure waste_category text was consistent
 Filled missing numbers with median values
