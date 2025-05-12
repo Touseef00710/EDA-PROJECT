@@ -72,7 +72,7 @@ The dataset includes:
 ## 🛠 Technologies Used
 - Python (Pandas, NumPy, Seaborn, Matplotlib)
 - SciPy for hypothesis testing
-- FPDF for PDF report generation
+
 
 ---
 
