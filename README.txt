@@ -1,82 +1,56 @@
-# 🧾 Food Waste Analysis Project
+🧾 Food Waste Analysis Project
+👤 Name
 
-## 👤 Name
-**Touseef Ahmed**
+Touseef Ahmed
 
-## 📌 Objective
-The goal of this project is to analyze food service data to understand patterns in food waste generation and identify actionable insights to optimize staffing, event planning, and waste management.
+📌 Objective
 
----
+This project aims to study food service data to find patterns in food waste. It seeks to uncover practical ways to improve staffing, plan events, and handle waste better.
 
-## 📁 Dataset Overview
+📁 Dataset Overview
 
-The dataset includes:
-- `meals_served`: Number of meals served per day
-- `kitchen_staff`: Number of kitchen staff working
-- `temperature_C`: Daily temperature in Celsius
-- `humidity_percent`: Daily humidity percentage
-- `special_event`: Binary flag for special events
-- `past_waste_kg`: Amount of food waste in kilograms
-- `staff_experience`: Experience level of the staff
-- `waste_category`: Type of food waste (e.g., dairy, meat)
-- `date`, `day_of_week`, `ID`: Additional identifiers and time features
+The data includes:
 
----
+meals_served: Number of meals served each day
+kitchen_staff: Staff working in the kitchen
+temperature_C: Daily temperature in Celsius
+humidity_percent: Humidity level each day
+special_event: Yes or no indicator for special events
+past_waste_kg: Food waste in kilograms
+staff_experience: Experience level of staff members
+waste_category: Type of waste, like dairy or meat
+date, day_of_week, ID: Extra info about time and IDs
+🧹 Data Cleaning
+Changed date into a date format
+Made sure waste_category text was consistent
+Filled missing numbers with median values
+Filled missing categories with mode or set values like 'Beginner'
+Removed or checked duplicate records Exploratory Data Analysis (EDA)
+Used histograms and boxplots to find outliers
+Created a correlation matrix to see relationships
+Used scatter plots to compare meals served and waste
+Count plots showed how staff experience and waste types are spread out
 
-## 🧹 Data Cleaning
-- Converted `date` to datetime format
-- Standardized text in `waste_category`
-- Imputed missing numeric values using **median**
-- Imputed categorical missing values using **mode** or **fixed values** (e.g., `'Beginner'`)
-- Removed or verified duplicates
+Hypothesis Testing ANOVA checked if more staff caused more waste T-Test compared waste on special event days versus regular days Both tests showed clear differences.
 
----
+Key Insights
 
-## 📊 Exploratory Data Analysis (EDA)
-- Histograms and boxplots were used to detect outliers
-- Correlation matrix helped explore relationships
-- Scatter plots showed relationships between meals served and waste
-- Count plots for `staff_experience` and `waste_category` provided categorical distribution insights
+More staff often means more waste
+Special events tend to produce more waste
+Weather factors like temperature and humidity may affect waste
 
----
+Files Included
 
-## 📈 Hypothesis Testing
-- **ANOVA** was used to test the effect of kitchen staff levels on food waste
-- **T-Test** compared waste on special event days vs. regular days
-- Results indicated statistically significant differences in both cases
+Food_Waste_Analysis_Report_Touseef_Ahmed.pdf
+Food data.csv: the dataset used
+Cleaned data Set.csv
+eda_notebook.ipynb: optional Python code file
 
----
+Technologies Used
 
-## 💡 Key Insights
-- Higher staff levels are linked to increased waste
-- Special events lead to more food waste
-- Environmental factors (temperature, humidity) may also play a role
+Python with Pandas, NumPy, Seaborn, Matplotlib
+SciPy for tests
 
----
-
-## ✅ Recommendations
-- Optimize staffing schedules based on expected meal demand
-- Improve planning for special events to reduce waste
-- Monitor temperature/humidity to adjust food storage/prep
-
----
-
-## 📦 Files Included
-- `Food_Waste_Analysis_Report_Touseef_Ahmed.pdf`: Summary report
-- `Detailed_Food_Waste_Analysis_Report_Touseef_Ahmed.pdf`: Full analysis report
-- `Food data.csv`: The dataset used
-- `eda_notebook.ipynb`: (Optional) Python notebook with full code
-
----
-
-## 🛠 Technologies Used
-- Python (Pandas, NumPy, Seaborn, Matplotlib)
-- SciPy for hypothesis testing
-
-
----
-
-## 📬 Contact
-For questions or collaboration:  
-**Touseef Ahmed**  
-📧 [Touseefahmed00710@gmail.com]  
+Contact For questions or teamwork:
+Touseef Ahmed
+📧 Touseefahmed00710@gmail.com
