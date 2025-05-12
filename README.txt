@@ -1,13 +1,11 @@
-🧾 Food Waste Analysis Project
-👤 Name
+Food Waste Analysis Project
+Name:      Touseef Ahmed
 
-Touseef Ahmed
-
-📌 Objective
+Objective
 
 This project aims to study food service data to find patterns in food waste. It seeks to uncover practical ways to improve staffing, plan events, and handle waste better.
 
-📁 Dataset Overview
+Dataset Overview
 
 The data includes:
 
